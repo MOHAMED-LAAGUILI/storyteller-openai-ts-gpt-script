@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+    "jsx": "react-jsx", // Enables JSX support for React
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["src/**/*"], // Ensure your source files are included
+  "exclude": ["node_modules"] // Exclude unnecessary files
+}
